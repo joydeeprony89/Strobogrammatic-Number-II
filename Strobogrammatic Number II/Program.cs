@@ -7,7 +7,7 @@ namespace Strobogrammatic_Number_II
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(string.Join("\n", FindStrobogrammatic(3)));
+            Console.WriteLine(string.Join("\n", FindStrobogrammatic(4)));
         }
 
         static IList<string> FindStrobogrammatic(int n)
